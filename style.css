@@ -5,11 +5,11 @@ p {
     padding-right: 10px;
 }
 
-.show-button {
+.show-button, #favorites, #favButton {
     margin: 5px;
 }
 
-#find-show {
+#find-show, #clearFavs {
     margin-top: 5px;
 }
 
