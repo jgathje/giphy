@@ -97,12 +97,8 @@ $(document).ready(function () {
 
     $(document).on("click", "#favorites", function () {
         getFav();
+        $("#clearFavs").show();
         $("#gifs").empty();
-        let clear = $("<button>");
-        clear.addClass("btn btn-primary");
-        clear.attr("id", "clearFavs");
-        clear.text("Clear Favorites");
-        $("#instructions").append(clear);
         for (var i = 0; i < favorites.length; i++) {
             let newDiv = $("<div>");
             newDiv.addClass("newGif");
