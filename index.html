@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet"></head>
+
+<body>
+
+    <div class="conatiner">
+        <div id="buttons"></div>
+    </div>
+    <div class="container" id="form">
+        <div class="row">
+            <div class="form-group col-md-4" id="instructions">
+                <!-- <label for="search">Add a show</label> -->
+                <input class="form-control" id="search" type="text" placeholder="Add A TV Show">
+                <button type="submit" class="btn btn-primary" id="find-show">Submit</button>
+            </div>
+            <div class="col-md-8" id="instructions">
+                <h5>Click a button above to search GIFs. Once the images display, click the image to animate!
+                </h5>
+            </div>
+        </div>
+        <div class="conatiner" id="gifs"></div>
+
+</body>
+
+</html>

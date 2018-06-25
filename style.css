@@ -1,0 +1,47 @@
+p {
+    font-family: 'Walter Turncoat', cursive;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.show-button {
+    margin: 5px;
+}
+
+#find-show {
+    margin-top: 5px;
+}
+
+#gifs {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.newGif {
+    float: left;
+    margin: 20px;
+    background-color: teal;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    margin: auto;
+    width: auto;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.gif {
+    margin-top: 10px;
+    
+}
+
+a {
+    margin-bottom: 10px;
+}
+
+#instructions {
+    margin-top: 2em;
+}
+
