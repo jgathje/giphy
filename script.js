@@ -59,6 +59,7 @@ $(document).ready(function () {
         var searchTerm = $("#search").val();
         topics.push(searchTerm);
         createButton();
+        $("#search").val("");
     });
 
     $(document).on("click", ".gif", function () {
