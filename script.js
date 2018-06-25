@@ -39,7 +39,7 @@ $(document).ready(function () {
                 newGif.attr("data-still", still);
                 newDiv.append(newGif);
                 let p = $("<p>").text("Rating: " + results[i].rating);
-                let p2 = $("<p>").text(results[i].title);
+                let p2 = $("<p>").text("Title: " + results[i].title);
                 let download = $("<a>");
                 download.attr("href", results[i].images.original.url);
                 download.text("Original GIF");
