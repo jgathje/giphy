@@ -141,6 +141,7 @@ $(document).ready(function () {
     $(document).on("click", "#clearFavs", function () {
         localStorage.clear();
         $("#gifs").empty();
+        favorites = [];
     })
 
 
